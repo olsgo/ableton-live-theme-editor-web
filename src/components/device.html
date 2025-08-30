@@ -1,16 +1,29 @@
-<div class="al-device-topbar">
-    <div class="al-onoff-switch"></div>
-    <div class="al-device-settings-button">
-        <div class="al-device-settings-button-arrowdown">&#9660;</div>
+<div class="al-device-topbar" data-xml-property="ControlBackground">
+    <div class="al-onoff-switch" data-xml-property="ControlOnForeground"></div>
+    <div class="al-device-settings-button" data-xml-property="ControlBackground">
+        <div class="al-device-settings-button-arrowdown" data-xml-property="ControlForeground">&#9660;</div>
     </div>
-    <div class="al-device-name">Device X</div>
-    <div class="al-device-save">
+    <div class="al-device-name" data-xml-property="ControlForeground">Device X</div>
+    <div class="al-device-save" data-xml-property="ControlForeground">
         <i class="fas fa-save"></i>
     </div>
-    <div class="al-device-hotswap">
+    <div class="al-device-hotswap" data-xml-property="ControlForeground">
         <i class="fas fa-sync"></i>
     </div>
 </div>
-<div class="al-device-contents-container">
-    Contents of device here
+<div class="al-device-contents-container" data-xml-property="ControlBackground">
+    <div class="al-device-controls">
+        <div class="cp">
+            <canvas class="nob al-device-knob" data-value="50" data-xml-property="Poti"></canvas>
+        </div>
+        <div class="cp">
+            <canvas class="nob al-device-knob" data-value="25" data-xml-property="Poti"></canvas>
+        </div>
+        <div class="cp">
+            <canvas class="nob al-device-knob" data-value="75" data-xml-property="Poti"></canvas>
+        </div>
+    </div>
+    <div class="al-device-parameters" data-xml-property="ControlForeground">
+        Contents of device here
+    </div>
 </div>
